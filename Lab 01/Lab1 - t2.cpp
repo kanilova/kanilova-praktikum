@@ -60,8 +60,8 @@ double newton_method(double x0) {
 }
 
 int main() {
-    double x0 = 1.5; // Начальная точка для методов Ньютона и простой итерации
-    double a = 1.5, b = 2.5; // Интервал для методов хорд и дихотомии
+    double x0 = 1.1; // Начальная точка для методов Ньютона и простой итерации
+    double a = 1.1, b = 1.5; // Интервал для методов хорд и дихотомии
 
     std::cout << "Secant Method: " << secant_method(a, b) << std::endl;
     std::cout << "Bisection Method: " << bisection_method(a, b) << std::endl;
