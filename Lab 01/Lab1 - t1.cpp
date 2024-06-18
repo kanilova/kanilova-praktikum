@@ -40,12 +40,12 @@ int main() {
     }
 
     // Выводим результаты
-    std::cout << "Sum: " << sum_z.first << " + " << sum_z.second << "i" << std::endl;
-    std::cout << "Difference: " << diff_z.first << " + " << diff_z.second << "i" << std::endl;
-    std::cout << "Product: " << prod_z.first << " + " << prod_z.second << "i" << std::endl;
-    std::cout << "Quotient: " << quot_z.first << " + " << quot_z.second << "i" << std::endl;
-    std::cout << "Fourth power of -1+i: " << z3_fourth_power.first << " + " << z3_fourth_power.second << "i" << std::endl;
-    std::cout << "Cube roots of -1+i:" << std::endl;
+    std::cout << "Сложение: " << sum_z.first << " + " << sum_z.second << "i" << std::endl;
+    std::cout << "Вычетание: " << diff_z.first << " + " << diff_z.second << "i" << std::endl;
+    std::cout << "Умножение: " << prod_z.first << " + " << prod_z.second << "i" << std::endl;
+    std::cout << "Деление: " << quot_z.first << " + " << quot_z.second << "i" << std::endl;
+    std::cout << "Четвертая степень -1+i: " << z3_fourth_power.first << " + " << z3_fourth_power.second << "i" << std::endl;
+    std::cout << "Корень третей степени -1+i:" << std::endl;
     for (const auto& root : z3_cube_roots) {
         std::cout << root.first << " + " << root.second << "i" << std::endl;
     }
